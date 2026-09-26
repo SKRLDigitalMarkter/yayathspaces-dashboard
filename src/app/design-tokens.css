@@ -1,0 +1,32 @@
+/*
+  YAYATH SPACES DESIGN TOKENS
+  Based on provided design images and existing globals.css
+*/
+:root {
+  /* Primary Brand Colors */
+  --brand-purple: #3B1E7C; /* Deep Purple from stats cards */
+  --brand-gold: #D4A017;   /* Gold/Mustard from banners */
+  --brand-gold-light: #F4D03F;
+
+  /* Backgrounds & Surfaces */
+  --bg-main: #FFFFFF;
+  --bg-secondary: #F9FAFB;
+  --surface-border: #E5E7EB;
+
+  /* Text Colors */
+  --text-primary: #111827;
+  --text-secondary: #4B5563;
+  --text-muted: #9CA3AF;
+
+  /* Overlay/Accent */
+  --accent-purple-light: #EEEDFA;
+}
+
+/* Custom Typography for Yayath Spaces */
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1, h2, h3, .font-serif {
+  font-family: 'Fraunces', serif;
+}
