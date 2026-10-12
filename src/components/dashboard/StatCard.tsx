@@ -1,11 +1,10 @@
 import React from 'react';
-import { LucideIcon } from 'lucide-react';
 
 interface StatCardProps {
   value: string;
   label: string;
   description: string;
-  icon: LucideIcon;
+  icon?: any;
   variant?: 'purple' | 'gold';
 }
 

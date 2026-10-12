@@ -6,11 +6,11 @@ import {
   Globe,
   CheckCircle2
 } from 'lucide-react';
-import { StatCard } from './StatCard';
-import { ServiceCard } from './ServiceCard';
-import { FeatureItem } from './FeatureItem';
-import { PricingCard } from './PricingCard';
-import { ContactItem } from './ContactItem';
+import { StatCard } from '@/components/dashboard/StatCard';
+import { ServiceCard } from '@/components/dashboard/ServiceCard';
+import { FeatureItem } from '@/components/dashboard/FeatureItem';
+import { PricingCard } from '@/components/dashboard/PricingCard';
+import { ContactItem } from '@/components/dashboard/ContactItem';
 
 const Dashboard = () => {
   return (
@@ -72,25 +72,21 @@ const Dashboard = () => {
             value="300+"
             label="Flexible Seats"
             description="Scalable capacity for teams of all sizes"
-            icon={() => null}
           />
           <StatCard
             value="24x7"
             label="Business Access"
             description="Round-the-clock access for members"
-            icon={() => null}
           />
           <StatCard
             value="5+"
             label="Workspace Solutions"
             description="Diverse formats for every work style"
-            icon={() => null}
           />
           <StatCard
             value="100%"
             label="Managed Infrastructure"
             description="Fully operated and maintained by us"
-            icon={() => null}
           />
         </div>
       </section>
